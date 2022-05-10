@@ -8,12 +8,9 @@ html,body {
 
 body {
     /* добавить полосу прокрутки */ 
-    position: relative;
-    min-height: 100%;
-    overflow: auto; 
+    /* overflow: auto;  */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #E9E8E8;
-    overflow-x: hidden;
 }
 
 main {
@@ -119,69 +116,67 @@ main {
 /* flex box и работа с ним */
 .section_div{
     position:absolute;
-    justify-content: space-around;
+    justify-content: center;
     top: 50px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* margin-bottom: 50px; */
     padding-bottom: 100px;
 }
 
 .block{
-    padding: 10px;
-    background-color:white;
-    flex-basis: 350px;
-    border: 1px #DADADA;
-    width: 350px;
-    height: 300px;
     margin-top: 85px;
-    /* text-align: center; */
+    margin-bottom: 85px;
+    flex-basis: 90%;
+    background-color: #fff;
 }
 
 .block_item h2{
     /* position: absolute; */
-    width: 272px;
-    height: 23px;
+    width: 390px;
+    height: 33px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 20px;
     line-height: 23px;
     color: #000000;
-    margin-left: 33px;
+    margin-left: 133px;
+    margin-top: 40px;
 }
 
 .block_item h3{
-    width: 67px;
-    height: 16px;
+    width: 107px;
+    height: 23px;
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 20px;
+    /* line-height: 123px; */
     text-decoration-line: underline;
     color: #000000;
-    margin-left: 33px;
-    margin-top: 30px;
+    margin-left: 133px;
+    margin-top: 15px;
 }
 
 .block_item h4{
-    width: 280px;
-    height: 127px;
+    /* width: 90%; */
+    /* height: 256px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #000000;
-    margin-left: 33px;
+    margin-left: 133px;
+    margin-right: 133px;
+    margin-bottom: 80px;
 }
 
 .arrow{
-    text-align:end;
-    margin-right: 20px;
+    text-align:start;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 .arrow a{
