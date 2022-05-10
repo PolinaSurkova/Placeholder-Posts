@@ -140,6 +140,10 @@ main {
     /* text-align: center; */
 }
 
+.block_item a{
+    color: black;
+}
+
 .block_item h2{
     /* position: absolute; */
     width: 272px;
