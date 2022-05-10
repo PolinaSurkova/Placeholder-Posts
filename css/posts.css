@@ -169,7 +169,7 @@ main {
 
 .block_item h4{
     width: 280px;
-    height: 127px;
+    height: 140px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -177,6 +177,8 @@ main {
     line-height: 23px;
     color: #000000;
     margin-left: 33px;
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
 
 .arrow{
