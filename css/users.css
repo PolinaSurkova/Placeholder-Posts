@@ -124,27 +124,43 @@ main {
 }
 
 .block{
-    padding: 15px;
+    /* padding: 15px; */
     background-color:white;
-    flex-basis: 350px;
-    border: 1px #DADADA;
+    /* flex-basis: 350px; */
+    /* border: 1px #DADADA; */
     flex-basis: 500px;
     height: 150px;
     margin-top: 85px;
 }
 
-img{
-    float:left;
+.block_item{
+    display: flex;
+    flex-direction: row;
+}
+
+.block_image{
+    /* align-self: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: table-cell; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.block_text{
+    align-content: flex-start;
 }
 
 .block_item h2{
-    margin-left: 200px;
+    margin-top: 13px;
+    margin-left: 32px;
     height: 28px;
     font-family: 'Roboto';
     font-size: 24px;
     color: #000000;
-    float: right;
-    margin: 0 0;
+    /* float: right;
+    margin: 0 0; */
 }
 
 .block_item a{
@@ -154,8 +170,8 @@ img{
     font-size: 20px;
     color: #000000;
     text-decoration: none;
-    float: right;
-    margin: 0 0;
+    /* float: right;
+    margin: 0 0; */
 }
 
 .block_item a:hover{
@@ -163,8 +179,8 @@ img{
 }
 
 .block_item h4{
-    margin-left: 200px;
-    margin-top: 6px;
+    margin-left: 32px;
+    /* margin-top: 6px; */
     width: 280px;
     font-family: 'Roboto';
     font-style: normal;
@@ -172,6 +188,20 @@ img{
     font-size: 20px;
     line-height: 23px;
     color: #000000;
-    float: right;
+    /* float: right; */
     /* margin: 0 0; */
+}
+
+.block_h4{
+    margin-top: 36px;
+    margin-bottom: 15px;
+}
+
+.block_h4:first-child{
+    margin-bottom: 0;
+}
+
+.block_h4:last-child{
+    margin-top: 6px;
+    margin-bottom: 12px;
 }
