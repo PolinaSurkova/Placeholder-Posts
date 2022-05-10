@@ -132,6 +132,10 @@ main {
     background-color: #fff;
 }
 
+.block_item a{
+    color: black;
+}
+
 .block_item h2{
     /* position: absolute; */
     width: 390px;
